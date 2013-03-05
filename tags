@@ -1,0 +1,578 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ANYMIDIEVNT_H	inc/cm/midi/anymidievnt.h	2;"	d
+AnyMidiEvnt	anymidievnt.cc	/^AnyMidiEvnt::AnyMidiEvnt(double time_in_sec, char type, char data1)$/;"	f	class:AnyMidiEvnt
+AnyMidiEvnt	anymidievnt.cc	/^AnyMidiEvnt::AnyMidiEvnt(double time_in_sec, char type, char data1, char data2)$/;"	f	class:AnyMidiEvnt
+AnyMidiEvnt	anymidievnt.cc	/^AnyMidiEvnt::AnyMidiEvnt(long int time_in_pulses, char type, char data1)$/;"	f	class:AnyMidiEvnt
+AnyMidiEvnt	anymidievnt.cc	/^AnyMidiEvnt::AnyMidiEvnt(long int time_in_pulses, char type, char data1, char data2)$/;"	f	class:AnyMidiEvnt
+AnyMidiEvnt	inc/cm/midi/anymidievnt.h	/^class AnyMidiEvnt: public MidiEvnt {$/;"	c
+BFFRALLOC_H	inc/cm/bffralloc.h	2;"	d
+BUS_H	inc/cm/bus.h	2;"	d
+BffrAlloc	inc/cm/bffralloc.h	/^class BffrAlloc {$/;"	c
+Bus	bus.cc	/^Bus::Bus()$/;"	f	class:Bus
+Bus	bus.cc	/^Bus::Bus(Signal *s)$/;"	f	class:Bus
+Bus	inc/cm/bus.h	/^class Bus: public Signal {$/;"	c
+CMFILER_H	inc/cm/cmfiler.h	2;"	d
+CMINC	Makefile	/^CMINC		= .\/inc\/$/;"	m
+CM_BUF_SIZE	inc/cm/cmfiler.h	9;"	d
+CM_ERRNO_H	inc/cm/cm_errno.h	2;"	d
+CM_ERR_BOUNDS	inc/cm/cm_errno.h	5;"	d
+CM_ERR_MEM	inc/cm/cm_errno.h	4;"	d
+CM_ERR_NO_CONVERGE	inc/cm/cm_errno.h	9;"	d
+CM_ERR_READING_FILE	inc/cm/cm_errno.h	8;"	d
+CM_ERR_UNKNOWN_TYPE	inc/cm/cm_errno.h	6;"	d
+CM_ERR_WRITING_FILE	inc/cm/cm_errno.h	7;"	d
+CM_POLY_DEBUG_REVERSE	poly.c	5;"	d	file:
+CM_SIGU_DEBUG	inc/cm/sigutils.h	6;"	d
+CM_SIGU_HAVE_INLINE	inc/cm/sigutils.h	21;"	d
+CM_SPEED_OF_SOUND	inc/cm/defs.h	6;"	d
+CM_UTILS_H	inc/cm/utils.h	2;"	d
+CONVERSIONS_H	inc/cm/conversions.h	2;"	d
+CSPINTRP_DBL_TAB_H	inc/cm/cspintrp_dbl_tab.h	2;"	d
+CspintrpDblTab	cspintrp_dbl_tab.cc	/^CspintrpDblTab::CspintrpDblTab (double *tabx, double *taby, long int len)$/;"	f	class:CspintrpDblTab
+CspintrpDblTab	cspintrp_dbl_tab.cc	/^CspintrpDblTab::CspintrpDblTab (double *taby, long int len)$/;"	f	class:CspintrpDblTab
+CspintrpDblTab	inc/cm/cspintrp_dbl_tab.h	/^class CspintrpDblTab: public Indexable {$/;"	c
+DBLTAB_H	inc/cm/dbltab.h	2;"	d
+DEFINES	Makefile	/^DEFINES		= -DLIBCM_DEBUG$/;"	m
+DEFS_H	inc/cm/defs.h	2;"	d
+DOUBLE_T	inc/cm/cmfiler.h	/^    DOUBLE_T,$/;"	e	enum:__cm_file_entry_type_e
+DblTab	dbltab.cc	/^DblTab::DblTab() { }$/;"	f	class:DblTab
+DblTab	dbltab.cc	/^DblTab::DblTab(double *tab, long int len)$/;"	f	class:DblTab
+DblTab	inc/cm/dbltab.h	/^class DblTab: public Indexable {$/;"	c
+ENV_BUSY	inc/cm/env.h	/^    ENV_BUSY,$/;"	e	enum:env_states
+ENV_FREE	inc/cm/env.h	/^    ENV_FREE$/;"	e	enum:env_states
+ENV_H	inc/cm/env.h	2;"	d
+ERR_WANDER_BAD_BOUND	inc/cm/wander.h	35;"	d
+ERR_WANDER_BAD_GOAL	inc/cm/wander.h	28;"	d
+ERR_WANDER_BAD_K	inc/cm/wander.h	32;"	d
+ERR_WANDER_BAD_LEN	inc/cm/wander.h	30;"	d
+ERR_WANDER_GOOD	inc/cm/wander.h	26;"	d
+Env	env.cc	/^Env::Env() {}$/;"	f	class:Env
+Env	env.cc	/^Env::Env(Indexable *tab)$/;"	f	class:Env
+Env	env.cc	/^Env::Env(Indexable *tab, Signal *rate)$/;"	f	class:Env
+Env	env.cc	/^Env::Env(Indexable *tab, Signal *rate, double (*tfn)(double))$/;"	f	class:Env
+Env	inc/cm/env.h	/^class Env: public Signal, public Instrument {$/;"	c
+FILTER_H	inc/cm/filter.h	2;"	d
+FRM_TREES_H	inc/cm/frm_trees.h	2;"	d
+FormTreeNode	inc/cm/frm_trees.h	/^} FormTreeNode;$/;"	t	typeref:struct:__ftreenode
+GAIN_H	inc/cm/gain.h	2;"	d
+GEN_TAB_H	inc/cm/gen_tab.h	2;"	d
+Gain	gain.cc	/^Gain::Gain()$/;"	f	class:Gain
+Gain	gain.cc	/^Gain::Gain(Signal *s)$/;"	f	class:Gain
+Gain	gain.cc	/^Gain::Gain(Signal *s, double k)$/;"	f	class:Gain
+Gain	inc/cm/gain.h	/^class Gain : public Signal {$/;"	c
+HDRDIR	Makefile	/^HDRDIR		= cm\/$/;"	m
+HDRS.c	Makefile	/^HDRS.c		= $(patsubst %.c,%.h,$(wildcard *.c))$/;"	m
+HDRS.cc	Makefile	/^HDRS.cc		= $(patsubst %.cc,%.h,$(wildcard *.cc))$/;"	m
+INC	Makefile	/^INC		= -I$(CMINC) -I\/opt\/local\/include\/\\$/;"	m
+INDEXABLE_H	inc/cm/indexable.h	2;"	d
+INTERPUTILS_H	inc/cm/interputils.h	2;"	d
+INTSRUMENT_H	inc/cm/instrument.h	2;"	d
+INT_T	inc/cm/cmfiler.h	/^    INT_T$/;"	e	enum:__cm_file_entry_type_e
+Indexable	inc/cm/indexable.h	/^class Indexable {$/;"	c
+Instrument	inc/cm/instrument.h	/^class Instrument {$/;"	c
+LIBNAME	Makefile	/^LIBNAME		= libcm.a$/;"	m
+LINTRP_DBL_TAB_H	inc/cm/lintrp_dbl_tab.h	2;"	d
+LINTRP_SIG_ARY_H	inc/cm/lintrp_sig_ary.h	2;"	d
+LPCMATRIX_H	inc/cm/lpcmatrix.h	2;"	d
+LPC_MATRIX_FILE_FORMAT_CURRENT	inc/cm/lpcmatrix.h	23;"	d
+LinEnv	env.cc	/^LinEnv::LinEnv(double *xtab, double *ytab, long int len)$/;"	f	class:LinEnv
+LinEnv	env.cc	/^LinEnv::LinEnv(double *xtab, double *ytab, long int len, Signal *rate)$/;"	f	class:LinEnv
+LinEnv	env.cc	/^LinEnv::LinEnv(double *xtab, double *ytab, long int len, Signal *rate, $/;"	f	class:LinEnv
+LinEnv	inc/cm/env.h	/^class LinEnv: public Env {$/;"	c
+LintrpDblTab	inc/cm/lintrp_dbl_tab.h	/^class LintrpDblTab: public Indexable {$/;"	c
+LintrpDblTab	lintrp_dbl_tab.cc	/^LintrpDblTab::LintrpDblTab (const char *sndfile)$/;"	f	class:LintrpDblTab
+LintrpDblTab	lintrp_dbl_tab.cc	/^LintrpDblTab::LintrpDblTab (double *tabx, double *taby, long int len)$/;"	f	class:LintrpDblTab
+LintrpDblTab	lintrp_dbl_tab.cc	/^LintrpDblTab::LintrpDblTab (double *taby, long int len)$/;"	f	class:LintrpDblTab
+LintrpSigAry	inc/cm/lintrp_sig_ary.h	/^class LintrpSigAry: public Signal {$/;"	c
+LintrpSigAry	lintrp_sig_ary.cc	/^LintrpSigAry::LintrpSigAry(Signal **tab, long int len)$/;"	f	class:LintrpSigAry
+MAX	wander.c	6;"	d	file:
+MIDIEVNT_H	inc/cm/midi/midievnt.h	2;"	d
+MIDI_CHAN_VALID	inc/cm/midi/midi_msg.h	31;"	d
+MIDI_CHN_PRS	inc/cm/midi/midi_msg.h	26;"	d
+MIDI_CNTRL_CHNG	inc/cm/midi/midi_msg.h	24;"	d
+MIDI_CTL_VALID	inc/cm/midi/midi_msg.h	33;"	d
+MIDI_DATA_VALID	inc/cm/midi/midi_msg.h	32;"	d
+MIDI_ERR_ALLOC	inc/cm/midi/midi_msg.h	38;"	d
+MIDI_ERR_BAD_CHAN	inc/cm/midi/midi_msg.h	35;"	d
+MIDI_ERR_BAD_DATA	inc/cm/midi/midi_msg.h	36;"	d
+MIDI_ERR_NOT_IMP	inc/cm/midi/midi_msg.h	39;"	d
+MIDI_ERR_NOT_INIT	inc/cm/midi/midi_msg.h	37;"	d
+MIDI_MSG_H	inc/cm/midi/midi_msg.h	2;"	d
+MIDI_NOTE_OFF	inc/cm/midi/midi_msg.h	21;"	d
+MIDI_NOTE_ON	inc/cm/midi/midi_msg.h	22;"	d
+MIDI_PCH_BND	inc/cm/midi/midi_msg.h	27;"	d
+MIDI_POLY_PRS	inc/cm/midi/midi_msg.h	23;"	d
+MIDI_PRGRM_CHNG	inc/cm/midi/midi_msg.h	25;"	d
+MIN	wander.c	5;"	d	file:
+MNEVNT_H	inc/cm/midi/mnevnt.h	2;"	d
+MNEvnt	inc/cm/midi/mnevnt.h	/^class MNEvnt: public MidiEvnt {$/;"	c
+MNEvnt	mnevnt.cc	/^MNEvnt::MNEvnt( double	time_in_sec,$/;"	f	class:MNEvnt
+MNEvnt	mnevnt.cc	/^MNEvnt::MNEvnt( long int    time_in_pulses,$/;"	f	class:MNEvnt
+MNEvnt	mnevnt.cc	/^MNEvnt::MNEvnt() { }$/;"	f	class:MNEvnt
+MXR_H	inc/cm/mxr.h	2;"	d
+MidiEvnt	inc/cm/midi/midievnt.h	/^class MidiEvnt: public ScrEvnt {$/;"	c
+Mxr	inc/cm/mxr.h	/^class Mxr: public Signal {$/;"	c
+Mxr	mxr.cc	/^Mxr::Mxr()$/;"	f	class:Mxr
+Mxr	mxr.cc	/^Mxr::Mxr(vector<Signal*> sigs)$/;"	f	class:Mxr
+OBJS	Makefile	/^OBJS		= $(OBJS.cc) $(OBJS.c)$/;"	m
+OBJS.c	Makefile	/^OBJS.c		= $(patsubst %.c,%.o,$(wildcard *.c))$/;"	m
+OBJS.cc	Makefile	/^OBJS.cc		= $(patsubst %.cc,%.o,$(wildcard *.cc))$/;"	m
+OPT	Makefile	/^OPT		= -ggdb3 #-O3$/;"	m
+POLY_H	inc/cm/poly.h	2;"	d
+SCREVNT_H	inc/cm/screvnt.h	2;"	d
+SIGNAL_DEFAULT_SR	signal.cc	4;"	d	file:
+SIGNAL_H	inc/cm/signal.h	2;"	d
+SIGUTILS_H	inc/cm/sigutils.h	2;"	d
+SIZE_T	inc/cm/cmfiler.h	/^    SIZE_T,$/;"	e	enum:__cm_file_entry_type_e
+SMPLDEL_H	inc/cm/smpldel.h	2;"	d
+SMPLRINST_H	inc/cm/smplrinst.h	2;"	d
+SMPLR_BUSY	inc/cm/smplrinst.h	/^    SMPLR_BUSY$/;"	e	enum:smplr_states
+SMPLR_FREE	inc/cm/smplrinst.h	/^    SMPLR_FREE,$/;"	e	enum:smplr_states
+SNDBFFR_H	inc/cm/sndbffr.h	2;"	d
+SNDFIO_BUF_SIZE	inc/cm/sndfio.h	20;"	d
+SNDFIO_ERR_FOPEN	inc/cm/sndfio.h	22;"	d
+SNDFIO_ERR_FWRITE	inc/cm/sndfio.h	23;"	d
+SNDFIO_H	inc/cm/sndfio.h	2;"	d
+SNDLDR_BUF_SIZE	inc/cm/sndldr.h	6;"	d
+SNDLDR_H	inc/cm/sndldr.h	2;"	d
+SNDPNTPND_H	inc/cm/sndpntpnd.h	2;"	d
+SPP2DARY_H	inc/cm/spp2dary.h	2;"	d
+SPP2DAry	inc/cm/spp2dary.h	/^class SPP2DAry: public Signal {$/;"	c
+SPP2DAry	spp2dary.cc	/^SPP2DAry::SPP2DAry(){ }$/;"	f	class:SPP2DAry
+SPP2DAry	spp2dary.cc	/^SPP2DAry::SPP2DAry(double wI, double hI, int num_cx, int num_cy, double dxO,$/;"	f	class:SPP2DAry
+ScrEvnt	inc/cm/screvnt.h	/^class ScrEvnt {};$/;"	c
+Signal	inc/cm/signal.h	/^class Signal {$/;"	c
+Signal	signal.cc	/^Signal::Signal() { last_tick = 0; }$/;"	f	class:Signal
+Signal	signal.cc	/^Signal::Signal(double k)$/;"	f	class:Signal
+SmplDel	inc/cm/smpldel.h	/^class SmplDel: public Signal {$/;"	c
+SmplDel	smpldel.cc	/^SmplDel::SmplDel()$/;"	f	class:SmplDel
+SmplDel	smpldel.cc	/^SmplDel::SmplDel(int len, int d_time)$/;"	f	class:SmplDel
+SmplDel	smpldel.cc	/^SmplDel::SmplDel(int len, int d_time, Signal *s)$/;"	f	class:SmplDel
+SmplrInst	inc/cm/smplrinst.h	/^class SmplrInst: public Instrument, public Signal {$/;"	c
+SmplrInst	smplrinst.cc	/^SmplrInst::SmplrInst()$/;"	f	class:SmplrInst
+SmplrInst	smplrinst.cc	/^SmplrInst::SmplrInst(Indexable *i)$/;"	f	class:SmplrInst
+SmplrInst	smplrinst.cc	/^SmplrInst::SmplrInst(Indexable *i, Signal *s)$/;"	f	class:SmplrInst
+SmplrInst	smplrinst.cc	/^SmplrInst::SmplrInst(Indexable *i, double rate)$/;"	f	class:SmplrInst
+SndBffr	inc/cm/sndbffr.h	/^class SndBffr: public Indexable {$/;"	c
+SndBffr	sndbffr.cc	/^SndBffr::SndBffr(const char *filepath)$/;"	f	class:SndBffr
+SndBffr	sndbffr.cc	/^SndBffr::SndBffr(double *tab, long int len, long int samplingrate, int channels)$/;"	f	class:SndBffr
+SoundPointPanned	inc/cm/sndpntpnd.h	/^class SoundPointPanned: public Signal {$/;"	c
+TXTFIO_H	inc/cm/txtfio.h	2;"	d
+USRINCPTH	Makefile	/^USRINCPTH	= \/usr\/local\/include\/$/;"	m
+USRLIBPTH	Makefile	/^USRLIBPTH 	= \/usr\/local\/lib\/$/;"	m
+VPATH	Makefile	/^VPATH 		= inc$/;"	m
+WANDER_H	inc/cm/wander.h	2;"	d
+WAVTABSMPLR_H	inc/cm/wavtabsmplr.h	2;"	d
+WAVTAB_H	inc/cm/wavtab.h	2;"	d
+WINDOWFUN_H	inc/cm/windowfun.h	2;"	d
+WavTab	inc/cm/wavtab.h	/^class WavTab: public Signal {$/;"	c
+WavTab	wavtab.cc	/^WavTab::WavTab(Indexable *i, Signal *s)$/;"	f	class:WavTab
+WavTabSmplr	inc/cm/wavtabsmplr.h	/^class WavTabSmplr: public Signal {$/;"	c
+WavTabSmplr	wavtabsmplr.cc	/^WavTabSmplr::WavTabSmplr()$/;"	f	class:WavTabSmplr
+WavTabSmplr	wavtabsmplr.cc	/^WavTabSmplr::WavTabSmplr(Indexable *i)$/;"	f	class:WavTabSmplr
+WavTabSmplr	wavtabsmplr.cc	/^WavTabSmplr::WavTabSmplr(Indexable *i, Signal *s)$/;"	f	class:WavTabSmplr
+__BEGIN_DECLS	inc/cm/conversions.h	10;"	d
+__BEGIN_DECLS	inc/cm/conversions.h	4;"	d
+__BEGIN_DECLS	inc/cm/conversions.h	7;"	d
+__BEGIN_DECLS	inc/cm/frm_trees.h	10;"	d
+__BEGIN_DECLS	inc/cm/frm_trees.h	4;"	d
+__BEGIN_DECLS	inc/cm/frm_trees.h	7;"	d
+__BEGIN_DECLS	inc/cm/gen_tab.h	11;"	d
+__BEGIN_DECLS	inc/cm/gen_tab.h	14;"	d
+__BEGIN_DECLS	inc/cm/gen_tab.h	8;"	d
+__BEGIN_DECLS	inc/cm/midi/midi_msg.h	10;"	d
+__BEGIN_DECLS	inc/cm/midi/midi_msg.h	4;"	d
+__BEGIN_DECLS	inc/cm/midi/midi_msg.h	7;"	d
+__BEGIN_DECLS	inc/cm/sigutils.h	12;"	d
+__BEGIN_DECLS	inc/cm/sigutils.h	15;"	d
+__BEGIN_DECLS	inc/cm/sigutils.h	9;"	d
+__BEGIN_DECLS	inc/cm/sndfio.h	11;"	d
+__BEGIN_DECLS	inc/cm/sndfio.h	5;"	d
+__BEGIN_DECLS	inc/cm/sndfio.h	8;"	d
+__BEGIN_DECLS	inc/cm/txtfio.h	12;"	d
+__BEGIN_DECLS	inc/cm/txtfio.h	15;"	d
+__BEGIN_DECLS	inc/cm/txtfio.h	9;"	d
+__BEGIN_DECLS	inc/cm/utils.h	11;"	d
+__BEGIN_DECLS	inc/cm/utils.h	14;"	d
+__BEGIN_DECLS	inc/cm/utils.h	8;"	d
+__BEGIN_DECLS	inc/cm/wander.h	14;"	d
+__BEGIN_DECLS	inc/cm/wander.h	17;"	d
+__BEGIN_DECLS	inc/cm/wander.h	20;"	d
+__END_DECLS	inc/cm/conversions.h	11;"	d
+__END_DECLS	inc/cm/conversions.h	5;"	d
+__END_DECLS	inc/cm/conversions.h	8;"	d
+__END_DECLS	inc/cm/frm_trees.h	11;"	d
+__END_DECLS	inc/cm/frm_trees.h	5;"	d
+__END_DECLS	inc/cm/frm_trees.h	8;"	d
+__END_DECLS	inc/cm/gen_tab.h	12;"	d
+__END_DECLS	inc/cm/gen_tab.h	15;"	d
+__END_DECLS	inc/cm/gen_tab.h	9;"	d
+__END_DECLS	inc/cm/midi/midi_msg.h	11;"	d
+__END_DECLS	inc/cm/midi/midi_msg.h	5;"	d
+__END_DECLS	inc/cm/midi/midi_msg.h	8;"	d
+__END_DECLS	inc/cm/sigutils.h	10;"	d
+__END_DECLS	inc/cm/sigutils.h	13;"	d
+__END_DECLS	inc/cm/sigutils.h	16;"	d
+__END_DECLS	inc/cm/sndfio.h	12;"	d
+__END_DECLS	inc/cm/sndfio.h	6;"	d
+__END_DECLS	inc/cm/sndfio.h	9;"	d
+__END_DECLS	inc/cm/txtfio.h	10;"	d
+__END_DECLS	inc/cm/txtfio.h	13;"	d
+__END_DECLS	inc/cm/txtfio.h	16;"	d
+__END_DECLS	inc/cm/utils.h	12;"	d
+__END_DECLS	inc/cm/utils.h	15;"	d
+__END_DECLS	inc/cm/utils.h	9;"	d
+__END_DECLS	inc/cm/wander.h	15;"	d
+__END_DECLS	inc/cm/wander.h	18;"	d
+__END_DECLS	inc/cm/wander.h	21;"	d
+__cm_allpole_filter	inc/cm/filter.h	/^typedef struct __cm_allpole_filter {$/;"	s
+__cm_file_entry_t	inc/cm/cmfiler.h	/^typedef struct __cm_file_entry_t {$/;"	s
+__cm_file_entry_type_e	inc/cm/cmfiler.h	/^typedef enum __cm_file_entry_type_e {$/;"	g
+__cm_file_entry_u	inc/cm/cmfiler.h	/^typedef union __cm_file_entry_u {$/;"	u
+__cm_file_formatter_t	inc/cm/cmfiler.h	/^typedef struct __cm_file_formatter_t {$/;"	s
+__cm_filter_line	inc/cm/filter.h	/^typedef struct __cm_filter_line {$/;"	s
+__ftreenode	inc/cm/frm_trees.h	/^typedef struct __ftreenode {$/;"	s
+__init	smpldel.cc	/^SmplDel::__init()$/;"	f	class:SmplDel
+a	inc/cm/filter.h	/^    double *a; \/* order a coefficients *\/$/;"	m	struct:__cm_allpole_filter
+acc	inc/cm/cspintrp_dbl_tab.h	/^	gsl_interp_accel *acc;$/;"	m	class:CspintrpDblTab
+acc	inc/cm/lintrp_dbl_tab.h	/^	gsl_interp_accel *acc;$/;"	m	class:LintrpDblTab
+add_to_smf_track_pulses	anymidievnt.cc	/^AnyMidiEvnt::add_to_smf_track_pulses(smf_track_t *track , char channel)$/;"	f	class:AnyMidiEvnt
+add_to_smf_track_pulses	mnevnt.cc	/^MNEvnt::add_to_smf_track_pulses(smf_track_t *track, char channel)$/;"	f	class:MNEvnt
+add_to_smf_track_sec	anymidievnt.cc	/^AnyMidiEvnt::add_to_smf_track_sec(smf_track_t *track, char channel)$/;"	f	class:AnyMidiEvnt
+add_to_smf_track_sec	mnevnt.cc	/^MNEvnt::add_to_smf_track_sec(smf_track_t *track, char channel)$/;"	f	class:MNEvnt
+buf	inc/cm/spp2dary.h	/^	Indexable   *buf; \/\/ the sound to play when triggered$/;"	m	class:SPP2DAry
+bus	inc/cm/sndpntpnd.h	/^	Bus	    bus;$/;"	m	class:SoundPointPanned
+calc_clock_angle	spp2dary.cc	/^SPP2DAry::calc_clock_angle(int x, int y)$/;"	f	class:SPP2DAry
+calc_clock_distance	spp2dary.cc	/^SPP2DAry::calc_clock_distance(int x, int y)$/;"	f	class:SPP2DAry
+calc_delay	spp2dary.cc	/^calc_delay(double dist)$/;"	f	file:
+calc_left_ear_dist	spp2dary.cc	/^calc_left_ear_dist(double r, double th, double hw)$/;"	f	file:
+calc_right_ear_dist	spp2dary.cc	/^calc_right_ear_dist(double r, double th, double hw)$/;"	f	file:
+calc_time_pulses	midievnt.cc	/^MidiEvnt::calc_time_pulses(int fps, double bpm)$/;"	f	class:MidiEvnt
+calc_time_sec	midievnt.cc	/^MidiEvnt::calc_time_sec(int fps, double bpm)$/;"	f	class:MidiEvnt
+channel_view	inc/cm/sndbffr.h	/^	int channel_view; \/* from what channel a call to get_index(int i) will$/;"	m	class:SndBffr
+channels	inc/cm/sndbffr.h	/^	int channels;$/;"	m	class:SndBffr
+children	inc/cm/frm_trees.h	/^    struct __ftreenode **children;$/;"	m	struct:__ftreenode	typeref:struct:__ftreenode::__ftreenode
+clip	wander.c	/^clip( int val, int min, int max )$/;"	f	file:
+clocks	inc/cm/spp2dary.h	/^	vector<SoundPointPanned> clocks; \/\/ vector of clocks indexed [x + y*num_cx]$/;"	m	class:SPP2DAry
+cm_allpole_filter	filter.c	/^cm_allpole_filter(cm_allpole_filter_t *A, double *x)$/;"	f
+cm_allpole_filter_alloc	filter.c	/^cm_allpole_filter_alloc(size_t order)$/;"	f
+cm_allpole_filter_free	filter.c	/^cm_allpole_filter_free(cm_allpole_filter_t *ap)$/;"	f
+cm_allpole_filter_init	filter.c	/^cm_allpole_filter_init(cm_allpole_filter_t **ap, size_t order)$/;"	f
+cm_allpole_filter_t	inc/cm/filter.h	/^} cm_allpole_filter_t;$/;"	t	typeref:struct:__cm_allpole_filter
+cm_allpole_filter_view_alloc	filter.c	/^cm_allpole_filter_view_alloc(size_t order, double *a)$/;"	f
+cm_atodb	conversions.c	/^double cm_atodb(double a)$/;"	f
+cm_autocorr	inc/cm/sigutils.h	/^cm_autocorr(double *x, size_t N, int i)$/;"	f
+cm_autocorr	sigutils.c	/^cm_autocorr(double *x, size_t N, int i)$/;"	f
+cm_check_bounds	inc/cm/utils.h	/^cm_check_bounds(int i, int a, int b)$/;"	f
+cm_clip	clip.c	/^int cm_clip(int x, int a, int b)$/;"	f
+cm_cmplx_mult_a_pol_	inc/cm/poly.h	21;"	d
+cm_cmplx_mult_a_rect_	inc/cm/poly.h	15;"	d
+cm_cmplx_mult_accum_a_rect_	inc/cm/poly.h	26;"	d
+cm_dbtoa	conversions.c	/^double cm_dbtoa(double db)$/;"	f
+cm_dist_press	conversions.c	/^double cm_dist_press(double dist, double sp_1_m)$/;"	f
+cm_fclip	clip.c	/^double cm_fclip(double x,  double a, double b)$/;"	f
+cm_file_entry_size	cmfiler.c	/^cm_file_entry_size(cm_file_entry_t *e)$/;"	f
+cm_file_entry_t	inc/cm/cmfiler.h	/^} cm_file_entry_t;$/;"	t	typeref:struct:__cm_file_entry_t
+cm_file_entry_type_e	inc/cm/cmfiler.h	/^} cm_file_entry_type_e;$/;"	t	typeref:enum:__cm_file_entry_type_e
+cm_file_entry_u	inc/cm/cmfiler.h	/^} cm_file_entry_u;$/;"	t	typeref:union:__cm_file_entry_u
+cm_file_formatter_t	inc/cm/cmfiler.h	/^} cm_file_formatter_t;$/;"	t	typeref:struct:__cm_file_formatter_t
+cm_fill_raised_cos	windowfun.c	/^cm_fill_raised_cos(double *a, size_t N, double amp, double freq, double phase)$/;"	f
+cm_fill_rand_tab_uni	genrand.c	/^cm_fill_rand_tab_uni(double *tab, long int len, double a, double b)$/;"	f
+cm_fill_sin_sum	gensinsum.c	/^cm_fill_sin_sum(double *tab, long int len, double *amps, int num)$/;"	f
+cm_filter_line_t	inc/cm/filter.h	/^} cm_filter_line_t;$/;"	t	typeref:struct:__cm_filter_line
+cm_find_lp_coeffs_autocorr	lpcmatrix.c	/^cm_find_lp_coeffs_autocorr(const gsl_vector *x, size_t N, size_t P, gsl_vector *a)$/;"	f
+cm_find_lp_coeffs_covar	lpcmatrix.c	/^cm_find_lp_coeffs_covar(const gsl_vector *x, size_t N, size_t P, gsl_vector *a)$/;"	f
+cm_find_lp_coeffs_sig	lpcmatrix.c	/^cm_find_lp_coeffs_sig(double *x, size_t N, size_t P, double *a,$/;"	f
+cm_find_lp_coeffs_sig_autocorr	lpcmatrix.c	/^cm_find_lp_coeffs_sig_autocorr(double *x, size_t N, size_t P, double *a)$/;"	f
+cm_find_lp_coeffs_sig_covar	lpcmatrix.c	/^cm_find_lp_coeffs_sig_covar(double *x, size_t N, size_t P, double *a)$/;"	f
+cm_find_max	inc/cm/sigutils.h	/^cm_find_max(double *a, size_t N)$/;"	f
+cm_find_successive_lpcs	lpcmatrix.c	/^cm_find_successive_lpcs(double *x, size_t len, size_t N, size_t P, size_t H,$/;"	f
+cm_find_successive_lpcs_autocorr	lpcmatrix.c	/^cm_find_successive_lpcs_autocorr(double *x, size_t len, size_t N, size_t P,$/;"	f
+cm_find_successive_lpcs_covar	lpcmatrix.c	/^cm_find_successive_lpcs_covar(double *x, size_t len, size_t N, size_t P, size_t H,$/;"	f
+cm_fl_alloc	filter.c	/^cm_fl_alloc(size_t length)$/;"	f
+cm_fl_free	filter.c	/^cm_fl_free(cm_filter_line_t *fl)$/;"	f
+cm_fl_get_ith	filter.c	/^cm_fl_get_ith(cm_filter_line_t *fl, int i)$/;"	f
+cm_fl_set_ith	filter.c	/^cm_fl_set_ith(cm_filter_line_t *fl, int i, double val)$/;"	f
+cm_fl_shift_n	filter.c	/^cm_fl_shift_n(cm_filter_line_t *fl, int n)$/;"	f
+cm_flinterp	interputils.c	/^cm_flinterp(double x1, double y1, double x2, double y2, double x)$/;"	f
+cm_flinterp_	inc/cm/interputils.h	6;"	d
+cm_flinterp_a	interputils.c	/^cm_flinterp_a(double *x1, double *y1, double *x2, double *y2, double *y, double x, size_t len)$/;"	f
+cm_flinterp_a_norm	interputils.c	/^cm_flinterp_a_norm(double *y1, double *y2, double *y, double x, size_t len)$/;"	f
+cm_flinterp_norm	interputils.c	/^cm_flinterp_norm(double y1, double y2, double x)$/;"	f
+cm_flinterp_norm_	inc/cm/interputils.h	9;"	d
+cm_fprintf_cm_file_entry	cmfiler.c	/^cm_fprintf_cm_file_entry(FILE *f, cm_file_entry_t *e)$/;"	f
+cm_fprintf_cm_file_formatter	cmfiler.c	/^cm_fprintf_cm_file_formatter(FILE *f, cm_file_formatter_t *cf, char *sep)$/;"	f
+cm_ftn_dflt_node_namer	frm_trees.c	/^cm_ftn_dflt_node_namer( int i )$/;"	f
+cm_ftn_free_tree	frm_trees.c	/^cm_ftn_free_tree(FormTreeNode *parent)$/;"	f
+cm_ftn_get_all_leaf_strings	frm_trees.c	/^cm_ftn_get_all_leaf_strings(FormTreeNode *t)$/;"	f
+cm_ftn_get_depth	frm_trees.c	/^cm_ftn_get_depth(FormTreeNode *t)$/;"	f
+cm_ftn_get_num_leaves	frm_trees.c	/^cm_ftn_get_num_leaves(FormTreeNode *t)$/;"	f
+cm_ftn_make_form_tree	frm_trees.c	/^cm_ftn_make_form_tree( char (*pfn)(int), char val, FormTreeNode *parent,$/;"	f
+cm_ftn_make_ftn	frm_trees.c	/^cm_ftn_make_ftn(char val, FormTreeNode *parent, FormTreeNode **children, $/;"	f
+cm_ftn_print_ftn_string	frm_trees.c	/^cm_ftn_print_ftn_string(FormTreeNode *t)$/;"	f
+cm_ftn_print_leaf_string	frm_trees.c	/^cm_ftn_print_leaf_string(FormTreeNode *t, char ***dest)$/;"	f	file:
+cm_ftn_random	inc/cm/frm_trees.h	18;"	d
+cm_ftn_srandom	inc/cm/frm_trees.h	19;"	d
+cm_ftowtr	conversions.c	/^double cm_ftowtr(double f, double sr, double tablen)$/;"	f
+cm_fwrap	wrap.c	/^double cm_fwrap(double x, double a, double b)$/;"	f
+cm_gen_rand_tab_uni	genrand.c	/^cm_gen_rand_tab_uni(long int len, double a, double b)$/;"	f
+cm_hann_	inc/cm/windowfun.h	12;"	d
+cm_load_sf_to_dbl_ary	sndfio.c	/^cm_load_sf_to_dbl_ary(const char *filepath, SF_INFO * sfinfo)$/;"	f
+cm_make_cm_file_formatter	cmfiler.c	/^cm_make_cm_file_formatter(size_t length)$/;"	f
+cm_make_lp_autocorr_matrix	lpcmatrix.c	/^cm_make_lp_autocorr_matrix(double *x, gsl_matrix *m, size_t N, size_t P)$/;"	f
+cm_make_lp_autocorr_vector	lpcmatrix.c	/^cm_make_lp_autocorr_vector(double *x, gsl_vector *v, size_t N, size_t P)$/;"	f
+cm_make_lp_toeplitz_covariance	lpcmatrix.c	/^cm_make_lp_toeplitz_covariance(const double *x, gsl_matrix *m, size_t N, size_t P)$/;"	f
+cm_make_sin_sum	gensinsum.c	/^cm_make_sin_sum(long int len, double *amps, int num)$/;"	f
+cm_midi_msg_sprintf	midi_msg.c	/^cm_midi_msg_sprintf(char *buf, int status, int channel, int data1, int data2)$/;"	f
+cm_mtof	conversions.c	/^double cm_mtof(double m)$/;"	f
+cm_normal_eqn_solve_cholesky	lpcmatrix.c	/^cm_normal_eqn_solve_cholesky(gsl_matrix *m, gsl_vector *a, const gsl_vector *y)$/;"	f
+cm_normalize_signal	sigutils.c	/^cm_normalize_signal(double *x, size_t len, double s)$/;"	f
+cm_poly_from_roots_im_pol	poly.c	/^cm_poly_from_roots_im_pol(double *r, size_t n, double *c)$/;"	f
+cm_poly_from_roots_im_rect	inc/cm/poly.h	/^cm_poly_from_roots_im_rect(double *r, size_t n, double *c)$/;"	f
+cm_poly_from_roots_real	inc/cm/poly.h	/^cm_poly_from_roots_real(double *r, size_t n, double *c)$/;"	f
+cm_poly_make_norm	poly.c	/^cm_poly_make_norm(double *a, size_t n, double r, int adj,$/;"	f
+cm_poly_make_norm_from_lpc	poly.c	/^cm_poly_make_norm_from_lpc(double *a, size_t P, double r, int adj,$/;"	f
+cm_poly_make_stable	poly.c	/^cm_poly_make_stable(double *p, size_t n, double r, int adj,$/;"	f
+cm_poly_make_stable_from_lpc	poly.c	/^cm_poly_make_stable_from_lpc(double *a, size_t P, double r, int adj,$/;"	f
+cm_poly_make_stable_pol	poly.c	/^cm_poly_make_stable_pol(double *r, size_t n, double a)$/;"	f
+cm_poly_make_stable_rect	poly.c	/^cm_poly_make_stable_rect(double *r, size_t n, double a)$/;"	f
+cm_poly_mult_im_pol	poly.c	/^cm_poly_mult_im_pol(double *a, size_t Na, double *b, size_t Nb, double *c)$/;"	f
+cm_poly_mult_im_pol_mcpy	poly.c	/^cm_poly_mult_im_pol_mcpy(double *a, size_t Na, double *b, size_t Nb, double *c)$/;"	f
+cm_poly_mult_im_rect	inc/cm/poly.h	/^cm_poly_mult_im_rect(double *a, size_t Na, double *b, size_t Nb, double *c)$/;"	f
+cm_poly_mult_im_rect_mcpy	inc/cm/poly.h	/^cm_poly_mult_im_rect_mcpy(double *a, size_t Na, double *b, size_t Nb, double *c)$/;"	f
+cm_poly_mult_real	inc/cm/poly.h	/^cm_poly_mult_real(double *a, size_t Na, double *b, size_t Nb, double *c)$/;"	f
+cm_poly_mult_real_mcpy	inc/cm/poly.h	/^cm_poly_mult_real_mcpy(double *a, size_t Na, double *b, size_t Nb, double *c)$/;"	f
+cm_poly_norm_poles_pol	poly.c	/^cm_poly_norm_poles_pol(double *r, size_t n, double a)$/;"	f
+cm_poly_norm_poles_rect	poly.c	/^cm_poly_norm_poles_rect(double *r, size_t n, double a)$/;"	f
+cm_poly_pol_to_rect_a	poly.c	/^cm_poly_pol_to_rect_a(double *r, size_t n)$/;"	f
+cm_poly_rect_to_pol_a	poly.c	/^cm_poly_rect_to_pol_a(double *r, size_t n)$/;"	f
+cm_read_cm_file_entry	cmfiler.c	/^cm_read_cm_file_entry(cm_file_entry_t *e, FILE *f)$/;"	f
+cm_read_cm_file_formatter	cmfiler.c	/^cm_read_cm_file_formatter(cm_file_formatter_t *cf, FILE *f)$/;"	f
+cm_reverse_array	poly.c	/^cm_reverse_array(double *s, size_t len)$/;"	f	file:
+cm_rng_fill_rand_tab_uni	genrand.c	/^cm_rng_fill_rand_tab_uni(gsl_rng *rng, double *tab, long int len,$/;"	f
+cm_set_cm_ff_entry	cmfiler.c	/^cm_set_cm_ff_entry(cm_file_formatter_t *cf, size_t i, cm_file_entry_type_e t,$/;"	f
+cm_set_cm_ffe_	inc/cm/cmfiler.h	49;"	d
+cm_set_cm_ffed_	inc/cm/cmfiler.h	50;"	d
+cm_sprintf_cm_file_entry	cmfiler.c	/^cm_sprintf_cm_file_entry(char *c, cm_file_entry_t *e)$/;"	f
+cm_time_dist	conversions.c	/^double cm_time_dist(double dist)$/;"	f
+cm_vswap	inc/cm/utils.h	/^cm_vswap(void **a, void **b)$/;"	f
+cm_vswp_	inc/cm/utils.h	20;"	d
+cm_window	inc/cm/windowfun.h	/^cm_window(double *y, double *x, double *w, size_t len)$/;"	f
+cm_window_inplace_	inc/cm/windowfun.h	23;"	d
+cm_wrap	wrap.c	/^int cm_wrap(int x, int a, int b)$/;"	f
+cm_write_cm_file_entry	cmfiler.c	/^cm_write_cm_file_entry(FILE *f, cm_file_entry_t *e)$/;"	f
+cm_write_cm_file_formatter	cmfiler.c	/^cm_write_cm_file_formatter(FILE *f, cm_file_formatter_t *h)$/;"	f
+cm_write_sf_from_dbl_ary	sndfio.c	/^cm_write_sf_from_dbl_ary(double * tab, const char *filepath, SF_INFO *sfinfo)$/;"	f
+cm_write_sf_from_dbl_ary_params	sndfio.c	/^cm_write_sf_from_dbl_ary_params(double *tab, const char *filepath,$/;"	f
+cur_dbl_bufs	inc/cm/bffralloc.h	/^	static list<double*> cur_dbl_bufs;$/;"	m	class:BffrAlloc
+d	inc/cm/cmfiler.h	/^    double  d;$/;"	m	union:__cm_file_entry_u
+d_time	inc/cm/smpldel.h	/^	int	d_time;$/;"	m	class:SmplDel
+data	inc/cm/bus.h	/^	double	data;$/;"	m	class:Bus
+data	inc/cm/filter.h	/^    double *data;$/;"	m	struct:__cm_filter_line
+data1	inc/cm/midi/anymidievnt.h	/^	char data1;$/;"	m	class:AnyMidiEvnt
+data2	inc/cm/midi/anymidievnt.h	/^	char data2;$/;"	m	class:AnyMidiEvnt
+datalen	inc/cm/midi/anymidievnt.h	/^	int datalen; \/*length of the message in bytes*\/$/;"	m	class:AnyMidiEvnt
+dbl_ary_t_list_from_rows	txtfio.c	/^dbl_ary_t_list_from_rows(FILE *f)$/;"	f
+dbl_ary_t_list_from_rows_path	txtfio.c	/^dbl_ary_t_list_from_rows_path(const char* path)$/;"	f
+dell	inc/cm/sndpntpnd.h	/^	SmplDel	    dell;$/;"	m	class:SoundPointPanned
+delr	inc/cm/sndpntpnd.h	/^	SmplDel	    delr;$/;"	m	class:SoundPointPanned
+dflt_rate	inc/cm/wavtabsmplr.h	/^	Signal	    dflt_rate; \/*default rate*\/$/;"	m	class:WavTabSmplr
+dxO	inc/cm/spp2dary.h	/^	double	dxO;	\/\/ x distance of observer from bottom left corner of$/;"	m	class:SPP2DAry
+dyO	inc/cm/spp2dary.h	/^	double	dyO;	\/\/ y distance of observer from bottom left corner of$/;"	m	class:SPP2DAry
+entries	inc/cm/cmfiler.h	/^    cm_file_entry_t entries[];$/;"	m	struct:__cm_file_formatter_t
+entry	inc/cm/cmfiler.h	/^    cm_file_entry_u      entry;$/;"	m	struct:__cm_file_entry_t
+env_states	inc/cm/env.h	/^enum env_states {$/;"	g
+fill_dbl_ary_from_str	txtfio.c	/^fill_dbl_ary_from_str(double_ary_t *a, char *str)$/;"	f
+fill_int32_ary_from_str	txtfio.c	/^fill_int32_ary_from_str(int32_ary_t *a, char *str, int base)$/;"	f
+find_num_words	txtfio.c	/^find_num_words(char *s)$/;"	f	file:
+first_x	cspintrp_dbl_tab.cc	/^double CspintrpDblTab::first_x()$/;"	f	class:CspintrpDblTab
+first_x	dbltab.cc	/^double DblTab::first_x()$/;"	f	class:DblTab
+first_x	lintrp_dbl_tab.cc	/^double LintrpDblTab::first_x()$/;"	f	class:LintrpDblTab
+first_x	sndbffr.cc	/^SndBffr::first_x()$/;"	f	class:SndBffr
+free_buf	bffralloc.cc	/^BffrAlloc::free_buf(double *ptr)$/;"	f	class:BffrAlloc
+g	inc/cm/filter.h	/^    double g;  \/* gain *\/$/;"	m	struct:__cm_allpole_filter
+gain	inc/cm/sndpntpnd.h	/^	Gain	    gain;$/;"	m	class:SoundPointPanned
+get_d_time_ms	smpldel.cc	/^SmplDel::get_d_time_ms()$/;"	f	class:SmplDel
+get_d_time_samples	smpldel.cc	/^SmplDel::get_d_time_samples()$/;"	f	class:SmplDel
+get_entire_channel	sndbffr.cc	/^SndBffr::get_entire_channel(int channel)$/;"	f	class:SndBffr
+get_index	cspintrp_dbl_tab.cc	/^double CspintrpDblTab::get_index(double i)$/;"	f	class:CspintrpDblTab
+get_index	cspintrp_dbl_tab.cc	/^double CspintrpDblTab::get_index(int i)$/;"	f	class:CspintrpDblTab
+get_index	dbltab.cc	/^double DblTab::get_index(double i)$/;"	f	class:DblTab
+get_index	dbltab.cc	/^double DblTab::get_index(int i)$/;"	f	class:DblTab
+get_index	lintrp_dbl_tab.cc	/^double LintrpDblTab::get_index(double i)$/;"	f	class:LintrpDblTab
+get_index	lintrp_dbl_tab.cc	/^double LintrpDblTab::get_index(int i)$/;"	f	class:LintrpDblTab
+get_index	sndbffr.cc	/^SndBffr::get_index(double i)$/;"	f	class:SndBffr
+get_index	wavtabsmplr.cc	/^double WavTabSmplr::get_index()$/;"	f	class:WavTabSmplr
+get_last_tick	signal.cc	/^Signal::get_last_tick()$/;"	f	class:Signal
+get_len_to_eol	txtfio.c	/^get_len_to_eol(FILE *f)$/;"	f	file:
+get_length	smplrinst.cc	/^SmplrInst::get_length()$/;"	f	class:SmplrInst
+get_length	wavtabsmplr.cc	/^WavTabSmplr::get_length()$/;"	f	class:WavTabSmplr
+get_phase	wavtabsmplr.cc	/^double WavTabSmplr::get_phase()$/;"	f	class:WavTabSmplr
+get_rate	wavtabsmplr.cc	/^Signal *WavTabSmplr::get_rate()$/;"	f	class:WavTabSmplr
+get_samplerate	signal.cc	/^Signal::get_samplerate()$/;"	f	class:Signal
+get_val	env.cc	/^Env::get_val(double sec)$/;"	f	class:Env
+gl	inc/cm/sndpntpnd.h	/^	Gain	    gl;$/;"	m	class:SoundPointPanned
+gr	inc/cm/sndpntpnd.h	/^	Gain	    gr;$/;"	m	class:SoundPointPanned
+hI	inc/cm/spp2dary.h	/^	double	hI;	\/\/ height of installation$/;"	m	class:SPP2DAry
+hO	inc/cm/spp2dary.h	/^	double	hO;	\/\/ height of observer$/;"	m	class:SPP2DAry
+i	inc/cm/cmfiler.h	/^    int	    i;$/;"	m	union:__cm_file_entry_u
+identity	env.cc	/^identity(double x)$/;"	f	file:
+idx	inc/cm/lintrp_sig_ary.h	/^	double idx;   \/* current index *\/$/;"	m	class:LintrpSigAry
+idx	inc/cm/wavtabsmplr.h	/^	double	    idx;$/;"	m	class:WavTabSmplr
+in	inc/cm/bus.h	/^	Signal	*in;$/;"	m	class:Bus
+in	inc/cm/gain.h	/^	Signal *in;$/;"	m	class:Gain
+in	inc/cm/smpldel.h	/^	Signal	*in;$/;"	m	class:SmplDel
+in_tick	bus.cc	/^Bus::in_tick()$/;"	f	class:Bus
+init_clocks	spp2dary.cc	/^SPP2DAry::init_clocks()$/;"	f	class:SPP2DAry
+init_spline	lintrp_dbl_tab.cc	/^LintrpDblTab::init_spline()$/;"	f	class:LintrpDblTab
+init_tab	smpldel.cc	/^SmplDel::init_tab(int len)$/;"	f	class:SmplDel
+init_tabx	lintrp_dbl_tab.cc	/^LintrpDblTab::init_tabx(long int len)$/;"	f	class:LintrpDblTab
+int32_ary_t_list_from_rows	txtfio.c	/^int32_ary_t_list_from_rows(FILE *f, int base)$/;"	f
+int32_ary_t_list_from_rows_path	txtfio.c	/^int32_ary_t_list_from_rows_path(const char* path, int base)$/;"	f
+is_busy	env.cc	/^Env::is_busy()$/;"	f	class:Env
+is_busy	smplrinst.cc	/^SmplrInst::is_busy()$/;"	f	class:SmplrInst
+k	inc/cm/gain.h	/^	Signal k;$/;"	m	class:Gain
+k	inc/cm/signal.h	/^	double k; \/* for constants *\/$/;"	m	class:Signal
+last_tick	inc/cm/signal.h	/^	double last_tick; \/* in order to poll values without doing new$/;"	m	class:Signal
+last_x	cspintrp_dbl_tab.cc	/^double CspintrpDblTab::last_x()$/;"	f	class:CspintrpDblTab
+last_x	dbltab.cc	/^double DblTab::last_x()$/;"	f	class:DblTab
+last_x	lintrp_dbl_tab.cc	/^double LintrpDblTab::last_x()$/;"	f	class:LintrpDblTab
+last_x	sndbffr.cc	/^SndBffr::last_x()$/;"	f	class:SndBffr
+len	inc/cm/dbltab.h	/^	long int    len;$/;"	m	class:DblTab
+len	inc/cm/indexable.h	/^	long int len;$/;"	m	class:Indexable
+len	inc/cm/lintrp_sig_ary.h	/^	long int len; \/* length of this array *\/$/;"	m	class:LintrpSigAry
+len	inc/cm/smpldel.h	/^	int	len;$/;"	m	class:SmplDel
+len	inc/cm/sndbffr.h	/^	long int len;$/;"	m	class:SndBffr
+len_in_pulses	inc/cm/midi/mnevnt.h	/^	long int len_in_pulses;$/;"	m	class:MNEvnt
+len_in_sec	inc/cm/midi/mnevnt.h	/^	double len_in_sec;$/;"	m	class:MNEvnt
+length	cspintrp_dbl_tab.cc	/^double CspintrpDblTab::length()$/;"	f	class:CspintrpDblTab
+length	dbltab.cc	/^double DblTab::length()$/;"	f	class:DblTab
+length	env.cc	/^Env::length()$/;"	f	class:Env
+length	inc/cm/cmfiler.h	/^    size_t	    length;$/;"	m	struct:__cm_file_formatter_t
+length	inc/cm/filter.h	/^    size_t length;$/;"	m	struct:__cm_filter_line
+length	lintrp_dbl_tab.cc	/^double LintrpDblTab::length()$/;"	f	class:LintrpDblTab
+length	sndbffr.cc	/^SndBffr::length()$/;"	f	class:SndBffr
+make_dbl_buf	bffralloc.cc	/^BffrAlloc::make_dbl_buf(size_t size)$/;"	f	class:BffrAlloc
+max	smpldel.cc	7;"	d	file:
+midimsg_err_t	inc/cm/midi/midi_msg.h	/^typedef int midimsg_err_t;$/;"	t
+min	smpldel.cc	8;"	d	file:
+note_off	env.cc	/^Env::note_off()$/;"	f	class:Env
+note_off	smplrinst.cc	/^SmplrInst::note_off()$/;"	f	class:SmplrInst
+note_on	env.cc	/^Env::note_on()$/;"	f	class:Env
+note_on	smplrinst.cc	/^SmplrInst::note_on()$/;"	f	class:SmplrInst
+note_on	smplrinst.cc	/^SmplrInst::note_on(int num_ticks)$/;"	f	class:SmplrInst
+num_children	inc/cm/frm_trees.h	/^    int num_children;$/;"	m	struct:__ftreenode
+num_cx	inc/cm/spp2dary.h	/^	int	num_cx; \/\/ number of clocks across$/;"	m	class:SPP2DAry
+num_cy	inc/cm/spp2dary.h	/^	int	num_cy; \/\/ number of clocks down$/;"	m	class:SPP2DAry
+offset	inc/cm/filter.h	/^    int offset;$/;"	m	struct:__cm_filter_line
+onset_vel	inc/cm/midi/mnevnt.h	/^	char onset_vel;$/;"	m	class:MNEvnt
+operator []	indexable.cc	/^double Indexable::operator[] (double i)$/;"	f	class:Indexable
+operator []	indexable.cc	/^double Indexable::operator[] (int i)$/;"	f	class:Indexable
+order	inc/cm/filter.h	/^    size_t order;$/;"	m	struct:__cm_allpole_filter
+outL	inc/cm/spp2dary.h	/^	Mxr	outL;	\/\/ left channel$/;"	m	class:SPP2DAry
+outR	inc/cm/spp2dary.h	/^	Mxr	outR;	\/\/ right channel$/;"	m	class:SPP2DAry
+owna	inc/cm/filter.h	/^    int owna;  \/* does the struct own the coefficients in a ? if so they will be deallocated with the struct *\/$/;"	m	struct:__cm_allpole_filter
+parent	inc/cm/frm_trees.h	/^    struct __ftreenode *parent;$/;"	m	struct:__ftreenode	typeref:struct:__ftreenode::__ftreenode
+pf_find_lps_t	inc/cm/lpcmatrix.h	/^typedef int (*pf_find_lps_t)(const gsl_vector*, size_t, size_t, gsl_vector*);$/;"	t
+pitch	inc/cm/midi/mnevnt.h	/^	char pitch;$/;"	m	class:MNEvnt
+ptr	inc/cm/env.h	/^	double ptr;$/;"	m	class:Env
+ptr	inc/cm/smpldel.h	/^	int	ptr;$/;"	m	class:SmplDel
+rand_range	wander.c	/^rand_range( int min, int max )$/;"	f	file:
+rate	inc/cm/env.h	/^	Signal *rate;$/;"	m	class:Env
+rate	inc/cm/spp2dary.h	/^	Signal	    rate; \/\/ rate at which clocks play$/;"	m	class:SPP2DAry
+rate	inc/cm/wavtabsmplr.h	/^	Signal	    *rate;$/;"	m	class:WavTabSmplr
+rel_vel	inc/cm/midi/mnevnt.h	/^	char rel_vel;$/;"	m	class:MNEvnt
+reset	env.cc	/^Env::reset()$/;"	f	class:Env
+return	sigutils.c	6;"	d	file:
+s	inc/cm/cmfiler.h	/^    size_t  s;$/;"	m	union:__cm_file_entry_u
+samplerate	inc/cm/signal.h	/^	static long int samplerate;$/;"	m	class:Signal
+samplerate	signal.cc	/^Signal::samplerate = SIGNAL_DEFAULT_SR; \/* default *\/$/;"	m	class:Signal	file:
+scaled_pos_rand	wander.c	/^scaled_pos_rand( int val )$/;"	f	file:
+set_channel	sndbffr.cc	/^SndBffr::set_channel(int c)$/;"	f	class:SndBffr
+set_d_time_ms	smpldel.cc	/^SmplDel::set_d_time_ms(double ms)$/;"	f	class:SmplDel
+set_d_time_samples	smpldel.cc	/^SmplDel::set_d_time_samples(int samps)$/;"	f	class:SmplDel
+set_freq	wavtabsmplr.cc	/^void WavTabSmplr::set_freq(double f)$/;"	f	class:WavTabSmplr
+set_gain	gain.cc	/^Gain::set_gain(double k)$/;"	f	class:Gain
+set_gain	sndpntpnd.cc	/^SoundPointPanned::set_gain(double g)$/;"	f	class:SoundPointPanned
+set_gain	spp2dary.cc	/^SPP2DAry::set_gain(int i, double gain)$/;"	f	class:SPP2DAry
+set_gain	spp2dary.cc	/^SPP2DAry::set_gain(int x, int y, double gain)$/;"	f	class:SPP2DAry
+set_gain_db	sndpntpnd.cc	/^SoundPointPanned::set_gain_db(double g)$/;"	f	class:SoundPointPanned
+set_gain_db	spp2dary.cc	/^SPP2DAry::set_gain_db(int i, double gain)$/;"	f	class:SPP2DAry
+set_gain_db	spp2dary.cc	/^SPP2DAry::set_gain_db(int x, int y, double gain)$/;"	f	class:SPP2DAry
+set_index	lintrp_sig_ary.cc	/^void LintrpSigAry::set_index(double i)$/;"	f	class:LintrpSigAry
+set_index	wavtabsmplr.cc	/^void WavTabSmplr::set_index(double d)$/;"	f	class:WavTabSmplr
+set_input	smpldel.cc	/^SmplDel::set_input(Signal*s)$/;"	f	class:SmplDel
+set_phase	wavtabsmplr.cc	/^void WavTabSmplr::set_phase(double ph)$/;"	f	class:WavTabSmplr
+set_pitch	wavtabsmplr.cc	/^void WavTabSmplr::set_pitch(double p)$/;"	f	class:WavTabSmplr
+set_rate	wavtabsmplr.cc	/^void WavTabSmplr::set_rate(Signal *s)$/;"	f	class:WavTabSmplr
+set_rate	wavtabsmplr.cc	/^void WavTabSmplr::set_rate(double s)$/;"	f	class:WavTabSmplr
+set_samplerate	signal.cc	/^Signal::set_samplerate(long int sr)$/;"	f	class:Signal
+set_tfn	env.cc	/^Env::set_tfn(double (*tfn)(double))$/;"	f	class:Env
+sig	inc/cm/wavtab.h	/^	Signal    *sig;$/;"	m	class:WavTab
+sigs	inc/cm/mxr.h	/^	vector<Signal*> sigs;$/;"	m	class:Mxr
+smplr	inc/cm/smplrinst.h	/^	WavTabSmplr smplr;$/;"	m	class:SmplrInst
+smplr	inc/cm/sndpntpnd.h	/^	SmplrInst   smplr;$/;"	m	class:SoundPointPanned
+smplr_states	inc/cm/smplrinst.h	/^enum smplr_states {$/;"	g
+sndpntpnd_init	sndpntpnd.cc	/^sndpntpnd_init(SoundPointPanned *spp, Indexable *buf, Signal *rate, int dell, int delr,$/;"	f
+spline	inc/cm/cspintrp_dbl_tab.h	/^	gsl_spline *spline;$/;"	m	class:CspintrpDblTab
+spline	inc/cm/lintrp_dbl_tab.h	/^	gsl_spline *spline;$/;"	m	class:LintrpDblTab
+sr	inc/cm/sndbffr.h	/^	long int sr;$/;"	m	class:SndBffr
+state	inc/cm/env.h	/^	enum env_states state;$/;"	m	class:Env	typeref:enum:Env::env_states
+state	inc/cm/smplrinst.h	/^	enum smplr_states state;$/;"	m	class:SmplrInst	typeref:enum:SmplrInst::smplr_states
+swanderdev	wander.c	/^swanderdev(void)$/;"	f
+tab	inc/cm/dbltab.h	/^	double	    *tab;$/;"	m	class:DblTab
+tab	inc/cm/env.h	/^	Indexable *tab;$/;"	m	class:Env
+tab	inc/cm/lintrp_sig_ary.h	/^	Signal **tab; \/* an array of pointers to signals *\/$/;"	m	class:LintrpSigAry
+tab	inc/cm/smpldel.h	/^	double	*tab;$/;"	m	class:SmplDel
+tab	inc/cm/sndbffr.h	/^	double *tab;$/;"	m	class:SndBffr
+tab	inc/cm/wavtab.h	/^	Indexable *tab;$/;"	m	class:WavTab
+tab	inc/cm/wavtabsmplr.h	/^	Indexable   *tab;$/;"	m	class:WavTabSmplr
+tabx	inc/cm/cspintrp_dbl_tab.h	/^	double *tabx;$/;"	m	class:CspintrpDblTab
+tabx	inc/cm/lintrp_dbl_tab.h	/^	double *tabx;$/;"	m	class:LintrpDblTab
+taby	inc/cm/cspintrp_dbl_tab.h	/^	double *taby;$/;"	m	class:CspintrpDblTab
+taby	inc/cm/lintrp_dbl_tab.h	/^	double *taby;$/;"	m	class:LintrpDblTab
+tfn	inc/cm/env.h	/^	double (*tfn)(double);$/;"	m	class:Env
+tick	bus.cc	/^Bus::tick()$/;"	f	class:Bus
+tick	env.cc	/^Env::tick()$/;"	f	class:Env
+tick	env.cc	/^Env::tick(double *output, int numchnls, int buflen)$/;"	f	class:Env
+tick	gain.cc	/^Gain::tick()$/;"	f	class:Gain
+tick	lintrp_sig_ary.cc	/^double LintrpSigAry::tick()$/;"	f	class:LintrpSigAry
+tick	mxr.cc	/^Mxr::tick(double *output, int numchnls, int buflen)$/;"	f	class:Mxr
+tick	mxr.cc	/^double Mxr::tick()$/;"	f	class:Mxr
+tick	signal.cc	/^Signal::tick()$/;"	f	class:Signal
+tick	signal.cc	/^Signal::tick(double *output, int numchnls, int buflen)$/;"	f	class:Signal
+tick	signal.cc	/^Signal::tick(float *output, int numchnls, int buflen)$/;"	f	class:Signal
+tick	smpldel.cc	/^SmplDel::tick()$/;"	f	class:SmplDel
+tick	smplrinst.cc	/^SmplrInst::tick()$/;"	f	class:SmplrInst
+tick	smplrinst.cc	/^SmplrInst::tick(double *output, int numchnls, int buflen)$/;"	f	class:SmplrInst
+tick	sndpntpnd.cc	/^SoundPointPanned::tick(double *output, int numchnls, int buflen)$/;"	f	class:SoundPointPanned
+tick	spp2dary.cc	/^SPP2DAry::tick(double *output, int numchnls, int buflen)$/;"	f	class:SPP2DAry
+tick	spp2dary.cc	/^SPP2DAry::tick(float *output, int numchnls, int buflen)$/;"	f	class:SPP2DAry
+tick	wavtab.cc	/^double WavTab::tick()$/;"	f	class:WavTab
+tick	wavtab.cc	/^void WavTab::tick(double *output, int numchnls, int buflen)$/;"	f	class:WavTab
+tick	wavtabsmplr.cc	/^double WavTabSmplr::tick()$/;"	f	class:WavTabSmplr
+tick	wavtabsmplr.cc	/^void WavTabSmplr::tick(double *output, int numchnls, int buflen)$/;"	f	class:WavTabSmplr
+tick_counter	inc/cm/smplrinst.h	/^	int tick_counter;$/;"	m	class:SmplrInst
+time_in_pulses	inc/cm/midi/midievnt.h	/^	long int time_in_pulses;$/;"	m	class:MidiEvnt
+time_in_sec	inc/cm/midi/midievnt.h	/^	double time_in_sec;$/;"	m	class:MidiEvnt
+trigger_all_clocks	spp2dary.cc	/^SPP2DAry::trigger_all_clocks()$/;"	f	class:SPP2DAry
+trigger_clock	spp2dary.cc	/^SPP2DAry::trigger_clock(int i)$/;"	f	class:SPP2DAry
+trigger_clock	spp2dary.cc	/^SPP2DAry::trigger_clock(int x, int y)$/;"	f	class:SPP2DAry
+type	inc/cm/cmfiler.h	/^    cm_file_entry_type_e type;$/;"	m	struct:__cm_file_entry_t
+type	inc/cm/midi/anymidievnt.h	/^	char type;$/;"	m	class:AnyMidiEvnt
+val	inc/cm/frm_trees.h	/^    char val;$/;"	m	struct:__ftreenode
+wI	inc/cm/spp2dary.h	/^	double	wI;	\/\/ width of installation$/;"	m	class:SPP2DAry
+wO	inc/cm/spp2dary.h	/^	double	wO;	\/\/ width of head of observer$/;"	m	class:SPP2DAry
+wander	wander.c	/^wander(int s, int g, int kmi, int kma, int lbnd, int ubnd, int *a, int len)$/;"	f
+y	inc/cm/filter.h	/^    cm_filter_line_t *y;$/;"	m	struct:__cm_allpole_filter
+~CspintrpDblTab	cspintrp_dbl_tab.cc	/^CspintrpDblTab::~CspintrpDblTab()$/;"	f	class:CspintrpDblTab
+~DblTab	dbltab.cc	/^DblTab::~DblTab(void)$/;"	f	class:DblTab
+~LinEnv	env.cc	/^LinEnv::~LinEnv()$/;"	f	class:LinEnv
+~LintrpDblTab	lintrp_dbl_tab.cc	/^LintrpDblTab::~LintrpDblTab()$/;"	f	class:LintrpDblTab
+~SmplDel	smpldel.cc	/^SmplDel::~SmplDel()$/;"	f	class:SmplDel
+~SndBffr	sndbffr.cc	/^SndBffr::~SndBffr()$/;"	f	class:SndBffr
