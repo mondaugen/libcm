@@ -1,3 +1,4 @@
+/* Copyright 2013 Nicholas Esterer. All Rights Reserved. */
 #ifndef CM_ERRNO_H
 #define CM_ERRNO_H 
 

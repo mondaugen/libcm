@@ -1,3 +1,4 @@
+/* Copyright 2013 Nicholas Esterer. All Rights Reserved. */
 /* generate tables of values using various random distributions */
 
 #include <stdlib.h> 

@@ -1,3 +1,4 @@
+/* Copyright 2013 Nicholas Esterer. All Rights Reserved. */
 #ifndef GEN_TAB_H
 #define GEN_TAB_H 
 

@@ -1,3 +1,4 @@
+/* Copyright 2013 Nicholas Esterer. All Rights Reserved. */
 #ifndef DEFS_H
 #define DEFS_H 
 /* Various constants used by libcm */

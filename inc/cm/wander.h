@@ -1,3 +1,4 @@
+/* Copyright 2013 Nicholas Esterer. All Rights Reserved. */
 #ifndef WANDER_H
 #define WANDER_H 
 /*-

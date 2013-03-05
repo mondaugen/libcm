@@ -1,3 +1,4 @@
+/* Copyright 2013 Nicholas Esterer. All Rights Reserved. */
 #ifndef WAVTABSMPLR_H
 #define WAVTABSMPLR_H 
 /* Reads through an Indexable at a set rate. 

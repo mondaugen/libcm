@@ -1,3 +1,4 @@
+/* Copyright 2013 Nicholas Esterer. All Rights Reserved. */
 /* Functions for making all kinds of windows */
 
 #include <math.h>

@@ -1,3 +1,4 @@
+/* Copyright 2013 Nicholas Esterer. All Rights Reserved. */
 #ifndef POLY_H
 #define POLY_H 
 #include <string.h> 

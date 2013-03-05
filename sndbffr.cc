@@ -1,3 +1,4 @@
+/* Copyright 2013 Nicholas Esterer. All Rights Reserved. */
 /*
  * A class storing an array of samples, the number of samples, the number of
  * channels and the sampling rate. Implements Indexable interface for easy

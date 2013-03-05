@@ -1,3 +1,4 @@
+/* Copyright 2013 Nicholas Esterer. All Rights Reserved. */
 #ifndef SIGUTILS_H
 #define SIGUTILS_H 
 

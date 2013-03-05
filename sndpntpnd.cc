@@ -1,3 +1,4 @@
+/* Copyright 2013 Nicholas Esterer. All Rights Reserved. */
 /* A panned sound source */
 
 #include <cm/sndpntpnd.h> 

@@ -1,3 +1,4 @@
+/* Copyright 2013 Nicholas Esterer. All Rights Reserved. */
 /* An audio bus. Use to avoid stack-overflows on fed-back signals. */
 #include <cm/signal.h> 
 #include <cm/bus.h> 

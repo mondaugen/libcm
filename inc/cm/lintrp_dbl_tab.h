@@ -1,3 +1,4 @@
+/* Copyright 2013 Nicholas Esterer. All Rights Reserved. */
 #ifndef LINTRP_DBL_TAB_H
 #define LINTRP_DBL_TAB_H 
 

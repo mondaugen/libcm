@@ -1,3 +1,4 @@
+/* Copyright 2013 Nicholas Esterer. All Rights Reserved. */
 #include <signal.h> 
 #include <cm/interputils.h> 
 /* Tools for interpolation */

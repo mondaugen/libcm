@@ -1,3 +1,4 @@
+/* Copyright 2013 Nicholas Esterer. All Rights Reserved. */
 /* generate tables of one period of a wave of harmonically related sinusoids */
 #include <math.h>
 #include <stdlib.h> 

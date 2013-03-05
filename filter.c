@@ -1,3 +1,4 @@
+/* Copyright 2013 Nicholas Esterer. All Rights Reserved. */
 /* stuff for filters */
 #include <cm/filter.h>
 #include <cm/utils.h>

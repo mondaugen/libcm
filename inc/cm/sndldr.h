@@ -1,3 +1,4 @@
+/* Copyright 2013 Nicholas Esterer. All Rights Reserved. */
 #ifndef SNDLDR_H
 #define SNDLDR_H 
 

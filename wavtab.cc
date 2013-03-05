@@ -1,3 +1,4 @@
+/* Copyright 2013 Nicholas Esterer. All Rights Reserved. */
 /* a wave table which allows the reading of values from some indexable class
  * with an arbitrary signal class */
 #include <cm/wavtab.h>

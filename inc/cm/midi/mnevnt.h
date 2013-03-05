@@ -1,3 +1,4 @@
+/* Copyright 2013 Nicholas Esterer. All Rights Reserved. */
 #ifndef MNEVNT_H
 #define MNEVNT_H 
 /*

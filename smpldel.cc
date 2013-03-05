@@ -1,3 +1,4 @@
+/* Copyright 2013 Nicholas Esterer. All Rights Reserved. */
 /* A simple delay line. Does not support multi-taps. */
 
 #include <cm/smpldel.h>

@@ -1,3 +1,4 @@
+/* Copyright 2013 Nicholas Esterer. All Rights Reserved. */
 #ifndef CONVERSIONS_H
 #define CONVERSIONS_H
 

@@ -1,3 +1,4 @@
+/* Copyright 2013 Nicholas Esterer. All Rights Reserved. */
 /* Holds a table of doubles and can return them linearly interpolated. This
  * doesn't support looping back around the table. */
 #include <cstdlib>

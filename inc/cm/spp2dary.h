@@ -1,3 +1,4 @@
+/* Copyright 2013 Nicholas Esterer. All Rights Reserved. */
 #ifndef SPP2DARY_H
 #define SPP2DARY_H 
 

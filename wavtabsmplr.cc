@@ -1,3 +1,4 @@
+/* Copyright 2013 Nicholas Esterer. All Rights Reserved. */
 #include <cm/wavtabsmplr.h>
 #include <cm/utils.h>
 #include <iostream> 

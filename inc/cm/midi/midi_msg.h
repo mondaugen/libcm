@@ -1,3 +1,4 @@
+/* Copyright 2013 Nicholas Esterer. All Rights Reserved. */
 #ifndef MIDI_MSG_H
 #define MIDI_MSG_H 
 

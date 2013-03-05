@@ -1,3 +1,4 @@
+/* Copyright 2013 Nicholas Esterer. All Rights Reserved. */
 #include <gsl/gsl_blas.h>
 #include <cm/utils.h>
 

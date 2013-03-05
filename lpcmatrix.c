@@ -1,3 +1,4 @@
+/* Copyright 2013 Nicholas Esterer. All Rights Reserved. */
 /* Routines for constructing autocorrelation and covariance matrices for use
  * with linear predicition routines. */
 

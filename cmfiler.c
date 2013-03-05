@@ -1,3 +1,4 @@
+/* Copyright 2013 Nicholas Esterer. All Rights Reserved. */
 #include <cm/cmfiler.h> 
 
 /* Make a cm_file_formatter_t that holds the header information. Length is the

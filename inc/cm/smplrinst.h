@@ -1,3 +1,4 @@
+/* Copyright 2013 Nicholas Esterer. All Rights Reserved. */
 #ifndef SMPLRINST_H
 #define SMPLRINST_H 
 /*

@@ -1,3 +1,4 @@
+/* Copyright 2013 Nicholas Esterer. All Rights Reserved. */
 #include <cm/poly.h>
 #include <math.h> 
 #include <cm/utils.h> 

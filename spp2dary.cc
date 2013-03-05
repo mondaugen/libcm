@@ -1,3 +1,4 @@
+/* Copyright 2013 Nicholas Esterer. All Rights Reserved. */
 // A 2D array of sound-points
 
 #include <cm/spp2dary.h>

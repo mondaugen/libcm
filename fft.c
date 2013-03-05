@@ -1,3 +1,4 @@
+/* Copyright 2013 Nicholas Esterer. All Rights Reserved. */
 /* Fast Fourier Transform Routines */
 
 #include <math.h>

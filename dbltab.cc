@@ -1,3 +1,4 @@
+/* Copyright 2013 Nicholas Esterer. All Rights Reserved. */
 /* A table for holding doubles. Performs no interpolation. */
 
 #include <cm/dbltab.h>

@@ -1,3 +1,4 @@
+/* Copyright 2013 Nicholas Esterer. All Rights Reserved. */
 /* An abstract base class for indexable objects */
 
 #include <cm/indexable.h> 

@@ -1,3 +1,4 @@
+/* Copyright 2013 Nicholas Esterer. All Rights Reserved. */
 #include <cm/wander.h> 
 #include <stdlib.h>
 #include <time.h>

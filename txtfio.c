@@ -1,3 +1,4 @@
+/* Copyright 2013 Nicholas Esterer. All Rights Reserved. */
 /* Utilities for reading and writing data from/to text files.
  * (c) 2012 Nicholas Esterer */
 

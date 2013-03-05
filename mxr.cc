@@ -1,3 +1,4 @@
+/* Copyright 2013 Nicholas Esterer. All Rights Reserved. */
 #include <cm/mxr.h>
 
 Mxr::Mxr(vector<Signal*> sigs)

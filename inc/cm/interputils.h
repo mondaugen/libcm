@@ -1,3 +1,4 @@
+/* Copyright 2013 Nicholas Esterer. All Rights Reserved. */
 #ifndef INTERPUTILS_H
 #define INTERPUTILS_H 
 #include <stddef.h> 

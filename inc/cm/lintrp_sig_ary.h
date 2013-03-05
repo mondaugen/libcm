@@ -1,3 +1,4 @@
+/* Copyright 2013 Nicholas Esterer. All Rights Reserved. */
 #ifndef LINTRP_SIG_ARY_H
 #define LINTRP_SIG_ARY_H 
 

@@ -1,3 +1,4 @@
+/* Copyright 2013 Nicholas Esterer. All Rights Reserved. */
 /* Holds a table of doubles and interpolates them using cublic splines with
  * periodic end conditions. When the tables are initialized, they are made one
  * longer than the length of the table provided and the first point of this

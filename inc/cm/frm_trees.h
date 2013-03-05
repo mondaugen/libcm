@@ -1,3 +1,4 @@
+/* Copyright 2013 Nicholas Esterer. All Rights Reserved. */
 #ifndef FRM_TREES_H
 #define FRM_TREES_H
 

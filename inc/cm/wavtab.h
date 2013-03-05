@@ -1,3 +1,4 @@
+/* Copyright 2013 Nicholas Esterer. All Rights Reserved. */
 #ifndef WAVTAB_H
 #define WAVTAB_H 
 #include <cm/indexable.h> 

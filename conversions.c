@@ -1,3 +1,4 @@
+/* Copyright 2013 Nicholas Esterer. All Rights Reserved. */
 /* functions for converting common units */
 #include <cm/utils.h>
 #include <cm/defs.h> 

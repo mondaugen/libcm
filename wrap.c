@@ -1,3 +1,4 @@
+/* Copyright 2013 Nicholas Esterer. All Rights Reserved. */
 /* wrap numbers between a and b */
 
 #include <cm/utils.h> 

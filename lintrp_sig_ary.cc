@@ -1,3 +1,4 @@
+/* Copyright 2013 Nicholas Esterer. All Rights Reserved. */
 /* A class that allows the linear inpolatation of a vector of signals. The index
  * is between which signal indices to interpolate, so 2.3 will interpolate
  * between 2 and 3 */

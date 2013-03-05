@@ -1,3 +1,4 @@
+/* Copyright 2013 Nicholas Esterer. All Rights Reserved. */
 #ifndef SNDBFFR_H
 #define SNDBFFR_H 
 /*

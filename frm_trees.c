@@ -1,3 +1,4 @@
+/* Copyright 2013 Nicholas Esterer. All Rights Reserved. */
 /* Generate trees to be used as forms */
 
 #include <cm/frm_trees.h> 

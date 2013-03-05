@@ -1,3 +1,4 @@
+/* Copyright 2013 Nicholas Esterer. All Rights Reserved. */
 /* Multiply a signal by a constant */
 
 #include <cstdlib> 

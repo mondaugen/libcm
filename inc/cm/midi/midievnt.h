@@ -1,3 +1,4 @@
+/* Copyright 2013 Nicholas Esterer. All Rights Reserved. */
 #ifndef MIDIEVNT_H
 #define MIDIEVNT_H 
 #include <smf.h>

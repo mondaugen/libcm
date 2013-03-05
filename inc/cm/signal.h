@@ -1,3 +1,4 @@
+/* Copyright 2013 Nicholas Esterer. All Rights Reserved. */
 #ifndef SIGNAL_H
 #define SIGNAL_H 
 /* An abstract base class for signals */
