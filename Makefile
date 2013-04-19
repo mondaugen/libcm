@@ -14,6 +14,9 @@ LIBNAME		= libcm.a
 DEFINES		= -DLIBCM_DEBUG
 OPT		= -ggdb3 #-O3
 
+# Conditional inclusion of midi modules
+WITH_MIDI   = 0
+
 ${LIBNAME} : $(OBJS)
 	ar rvs libcm.a $(OBJS); rm $(OBJS)
 
@@ -97,6 +100,8 @@ bffralloc.o : bffralloc.cc cm/bffralloc.h
 txtfio.o : txtfio.c cm/txtfio.h
 	$(CC) $(OPT) $(INC) ${DEFINES} -c $< -o $@
 
+ifeq ($(WITH_MIDI),1)
+
 midievnt.o : midievnt.cc cm/midi/midievnt.h cm/midi/midi_msg.h cm/screvnt.h
 	$(CC) $(OPT) $(INC) ${DEFINES} -c $< -o $@
 
@@ -110,6 +115,8 @@ mnevnt.o : mnevnt.cc cm/midi/mnevnt.h cm/midi/midievnt.h cm/midi/midi_msg.h\
 anymidievnt.o : anymidievnt.cc cm/midi/midievnt.h \
     		cm/midi/midi_msg.h cm/midi/anymidievnt.h cm/screvnt.h
 	$(CC) $(OPT) $(INC) ${DEFINES} -c $< -o $@
+
+endif
 
 frm_trees.o : frm_trees.c cm/frm_trees.h
 	$(CC) $(OPT) $(INC) ${DEFINES} -c $< -o $@
